@@ -13,12 +13,19 @@ tags: [first_post]     # TAG names should always be lowercase
 
 안녕하세요
 
+<div></div>
 여러분
 
 이 블로그는
 공부를 위해
 
 사용하는 것입니다.
+
+테스트를 위해 아무 말이나 사용해보았습니다.
+메인에서 노출되는 미리보기 항목에서 html 코드 부분이 노출되면서 parsing 에러가 나는 경우가 있기 때문에 조금 길게 쓰는게 좋겠네요.
+
+https://a3magic3pocket.github.io/posts/html-parser-error/
+
 
 ---
 
@@ -27,11 +34,15 @@ tags: [first_post]     # TAG names should always be lowercase
 
 ```
 
+
+
 |                |ASCII                          |HTML                         |
 |----------------|-------------------------------|-----------------------------|
 |Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
 |Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
 |Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+
+
 
 https://stackedit.io/app# 를 사용한다.
 
