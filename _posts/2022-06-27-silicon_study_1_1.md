@@ -1,11 +1,11 @@
 ---
 title: 실리콘 벨리 첫번째 주 월요일
-date: 2022-06-28 10:00:00 +0900
+date: 2022-06-27 10:00:00 +0900
 categories: [2022 미국 실리콘밸리 SW교육프로그램]
-tags: [silicon_1week, ot]     # TAG names should always be lowercase
+tags: [silicon_1week, silicon_ot]     # TAG names should always be lowercase
 ---
 
-# silicon_1week
+# silicon_1week_Monday
 
 ## 2022 미국 실리콘밸리 SW교육프로그램란?
 <br>

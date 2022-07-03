@@ -2,7 +2,7 @@
 title: 첫 포스팅 작성하기_포스트 연습
 date: 2022-07-03 14:00:00 +0900
 categories: [포스팅 연습]
-tags: [first]     # TAG names should always be lowercase
+tags: [first_post]     # TAG names should always be lowercase
 ---
 
 # 첫 글입니다 !
@@ -71,3 +71,10 @@ __중복활용*가능*하다__
 [![이미지](https://theorydb.github.io/assets/img/think/2019-06-25-think-future-ai-1.png)](https://theorydb.github.io/think/2019/06/25/think-future-ai/)
 
 이미지 test : ![이미지](https://user-images.githubusercontent.com/44563065/177028667-7460897b-920b-4fa4-a89a-afa97f7c5ce9.jpg "이미지 테스트")
+
+# 깃허브 블로그 만드는 법 - chirpy 사용
+https://www.irgroup.org/posts/jekyll-chirpy/
+
+ubuntu 사용
+
+vscode
