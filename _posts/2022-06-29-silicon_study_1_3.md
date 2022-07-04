@@ -26,4 +26,56 @@ tags: [silicon_1week, what_silicon]     # TAG names should always be lowercase
             
             → 많이 사용하고, 많은 웹사이트를 찾아보는 것이 좋다.
 
+<br>
 
+# 프로젝트 아이디어
+
+## 아이디어 1 : 중고나라 등급 이미지 처리
+
+- 기스의 여부에 따라 중고상품의 품질이 달라진다.
+    
+    → 사진을 다양한 각도로 찍어 기스의 여부와 청결 상태를 통해 등급을 AI로 결정하게 한다.
+    
+    ex) 액정이 있는 휴대폰을 타겟으로 한다. (액정에 있는 기스를 탐지.) → 갯수로 등급 나눔.
+    
+    - 기스는 edge 탐색
+    - 청결 상태는 물건의 색깔로 탐지. (색과 다른 부문 탐지.)
+
+[https://www.keyence.co.kr/solutions/applications/ap_20085.jsp](https://www.keyence.co.kr/solutions/applications/ap_20085.jsp) - 이미지의 edge를 탐색
+
+[https://visionify.ai/](https://visionify.ai/) - ****Computer Vision & ML Solutions - 공장 물품 탐색****
+
+관련 자료 보류..
+
+---
+
+## ~~아이디어 2 : 자격증 풀이과정 AI → 기간 내 구현 불가능 예상.~~
+
+- 기존에는 자격증 문제의 풀이과정을 직접 찾아보고 입력 해야 했다.
+    
+    → 자격증 AI 가 문제를 풀고 ‘설명가능한 AI’ 기술을 통해 왜 이 해답이 나왔는지 사용자가 이해할 수 있게 풀이과정을 설명해준다.
+    
+
+[https://blog.mathpresso.com/매스프레소에서-ai-기술은-어떻게-활용되고-있나요-27e40c1edb1c](https://blog.mathpresso.com/%EB%A7%A4%EC%8A%A4%ED%94%84%EB%A0%88%EC%86%8C%EC%97%90%EC%84%9C-ai-%EA%B8%B0%EC%88%A0%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%99%9C%EC%9A%A9%EB%90%98%EA%B3%A0-%EC%9E%88%EB%82%98%EC%9A%94-27e40c1edb1c)
+
+---
+
+## ~~아이디어 3 : 조명 추천  AI~~
+
+~~※ 아무 아이디어~~
+
+- ~~조명 추천 AI - 조명 쇼핑몰~~
+- ~~식물 성장 예측 AI - 농업 활용~~
+- ~~파노라마 만들기 AI - 상업 x → 지도 앱에 활용?\~~
+
+---
+
+## 사용할 수 있는 AI API
+
+[https://aiopen.etri.re.kr/](https://aiopen.etri.re.kr/) - 한국전자통신연구원 지식공유플랫폼
+
+[https://www.youtube.com/watch?v=XK3eU9egll8](https://www.youtube.com/watch?v=XK3eU9egll8) - OpenCV 이미지 처리, 얼굴 인식 사용법
+
+[https://www.youtube.com/watch?v=yqkISICHH-U](https://www.youtube.com/watch?v=yqkISICHH-U) - Tensorflow 객체 탐지
+
+[https://www.youtube.com/watch?v=exgO1LFl9x8](https://www.youtube.com/watch?v=exgO1LFl9x8) - 업무자동화 (RPA)
