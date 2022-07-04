@@ -97,6 +97,28 @@ urlpatterns = [
 
 - 기본 ModelAdmin으로 등록한다.
 
+## cv2 설치
+
+- pip install opencv-python
+- `pip install opencv-contrib-python`
+
+## Pycharm - `requirement.txt` 가 있을때!
+
+- **pip install -r requirement.txt**
+    - 요구 모듈들을 한번에 다운할 수 있다..
+    
+
+## Pycharm - [model.py](http://model.py) - makemigrations
+
+- makemigration
+- migrate
+
+---
+
+## pip install tensorflow - error 해결법.1
+
+[Windows 11/10에서 Win32 긴 경로를 활성화 또는 비활성화하는 방법 - Windows789](https://windows789.com/ko/windows-11-10%EC%97%90%EC%84%9C-win32-%EA%B8%B4-%EA%B2%BD%EB%A1%9C%EB%A5%BC-%ED%99%9C%EC%84%B1%ED%99%94-%EB%98%90%EB%8A%94-%EB%B9%84%ED%99%9C%EC%84%B1%ED%99%94%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95)
+
 ---
 
 # AI 학습도 똑같은 사례
@@ -106,3 +128,15 @@ urlpatterns = [
 # Django 랭킹 개발 사례
 
 [첫번째 Django 연습용 프로젝트 07: 랭킹 모델 생성 & 뷰, 템플릿 연동](https://semtax.tistory.com/57?category=804337)
+
+[Chirpy 테마 커스터마이징](https://www.irgroup.org/posts/Chirpy-%ED%85%8C%EB%A7%88-%EC%BB%A4%EC%8A%A4%ED%84%B0%EB%A7%88%EC%9D%B4%EC%A7%95/)
+
+## Pycharm 가상환경이 안될때
+
+[윈도우의 powershell에서 가상환경이 활성화 안되는 이유](https://dreamlog.tistory.com/603)
+
+# 웹캠 ai 구동 예시 찾음.
+
+[Mask Detected in Django using OpenCV and Tensorflow](https://www.youtube.com/watch?v=KcsnCGYt928)
+
+- [camera.py](http://camera.py) 가 전체 통괄 주석 필요.
