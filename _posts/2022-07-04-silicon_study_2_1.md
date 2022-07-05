@@ -1,6 +1,6 @@
 ---
 title: 실리콘 벨리 두번째 주 월요일
-date: 2022-06-30 10:00:00 +0900
+date: 2022-07-04 10:00:00 +0900
 categories: [2022 미국 실리콘밸리 SW교육프로그램]
 tags: [silicon_1week, what_silicon]     # TAG names should always be lowercase
 ---
