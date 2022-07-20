@@ -2,7 +2,7 @@
 title: 실리콘 벨리 두번째 주 화요일
 date: 2022-07-05 10:00:00 +0900
 categories: [2022 미국 실리콘밸리 SW교육프로그램]
-tags: [silicon_1week, what_silicon]     # TAG names should always be lowercase
+tags: [silicon_2week, what_silicon] # TAG names should always be lowercase
 ---
 
 # silicon_2week_Tuesday
@@ -27,10 +27,10 @@ tags: [silicon_1week, what_silicon]     # TAG names should always be lowercase
 
 - 어떻게 생각하세요? → 저라면 이럴거 같아요.
 - 실무진들이 같이 일을 하기위해 테스트를 하는 것이아니라
-    - 어떤 생각을 하고 일할까? 우리와 팀을 하면 어떻까? 이런 느낌이다.
-    - 기술적으로 엄청 뛰어나지만, 성격이 맞지 않고, 팀원과의 커뮤가 낮으면 채용 x
-    - 프로젝트를 위한 서로를 알아가는 과정이라고 생각하면 좋다.
-    - 나는 이런 생각을 하면서 프로젝트를 진행하였다. 등등.
+  - 어떤 생각을 하고 일할까? 우리와 팀을 하면 어떻까? 이런 느낌이다.
+  - 기술적으로 엄청 뛰어나지만, 성격이 맞지 않고, 팀원과의 커뮤가 낮으면 채용 x
+  - 프로젝트를 위한 서로를 알아가는 과정이라고 생각하면 좋다.
+  - 나는 이런 생각을 하면서 프로젝트를 진행하였다. 등등.
 - 면접을 준비할때 많은 도움이 되었던 영상.
 
 [https://www.youtube.com/watch?v=gXfEE6v5bSI](https://www.youtube.com/watch?v=gXfEE6v5bSI)
@@ -44,13 +44,13 @@ tags: [silicon_1week, what_silicon]     # TAG names should always be lowercase
 ## 서비스 관련 확인
 
 - 인프라 구성하기 (Mabe AWS)
-    - 단순히 개발하는 것보다 인프라 구성을 제대로 해야한다. → 시간이 가장 오래 걸림.
+  - 단순히 개발하는 것보다 인프라 구성을 제대로 해야한다. → 시간이 가장 오래 걸림.
 - API 디자인 하기.
-    - 인터페이스에 먼저 집중을 하자면.. 화면에 적용되는 부분..
-    - 서버의 인터페이스를 보고 결정하는 것이다.
-    - REST API
-        - GET POST PUT DELETE
-        - 이걸로 규칙을 정하는 것이 좋다. 완벽 → REST FULL 하다.
+  - 인터페이스에 먼저 집중을 하자면.. 화면에 적용되는 부분..
+  - 서버의 인터페이스를 보고 결정하는 것이다.
+  - REST API
+    - GET POST PUT DELETE
+    - 이걸로 규칙을 정하는 것이 좋다. 완벽 → REST FULL 하다.
 - 서비스 로직 분할하기.
 
 ## 프레임워크 태크 스택
@@ -58,72 +58,63 @@ tags: [silicon_1week, what_silicon]     # TAG names should always be lowercase
 - 상황, 숙련도, 생산성을 고려하여 프레임워크를 선택하는 것이 좋다.
 - BE - FE 를 결정했다면, 인프라 구성!.
 - 왜 이 태크스택을 사용했고, 이것을 사용하는 이유가 무엇인가..
-    - just 한곳에서 많이 쓴다고, 쓰는 것은 좋지 않다.
-    - 바꾸는 일이 있더라도, 테크스택을 신중하고 잘 결정하자!
+  - just 한곳에서 많이 쓴다고, 쓰는 것은 좋지 않다.
+  - 바꾸는 일이 있더라도, 테크스택을 신중하고 잘 결정하자!
 
 ## 강사님의 프로젝트 테크스택
-
 
 ![이미지](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6ee82fb5-11ea-4ee8-9c12-705636945bed/Untitled.png)
 
 ![이미지](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/75c7d768-f029-4f5f-b87e-603a1203fa70/Untitled.png)
 
 - docker는 꼭 한번은 사용하는 것을 추천한다.
-    - 클라우드 발전으로 docker의 상황 up
-    - 실제 자신들의 클라우드에 띄우는 경우가 굉장히 많아짐.
-    - 스타트업에서 많이 사용한다.
-    - `배민` 기업은 80~90% 클라우드 기반으로 사용한다.
-    - 어디서든지 release 하고 배포를 할 수 있다!!
-    
+  - 클라우드 발전으로 docker의 상황 up
+  - 실제 자신들의 클라우드에 띄우는 경우가 굉장히 많아짐.
+  - 스타트업에서 많이 사용한다.
+  - `배민` 기업은 80~90% 클라우드 기반으로 사용한다.
+  - 어디서든지 release 하고 배포를 할 수 있다!!
 
 ## 테스트 코드, 깃허브 커뮤니케이션 —-
 
 ![이미지](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c08ece7b-1131-4524-8bb2-957c85a18936/Untitled.png)
 
 - sonarqube
-    - 정적 분석
-        - 중복된 코드, 버그 발생, 냄새나는 코드 확인 및 분석.
-            
-            → 프로그램의 품질을 측정한다. 
-            
+  - 정적 분석
+    - 중복된 코드, 버그 발생, 냄새나는 코드 확인 및 분석.
+      → 프로그램의 품질을 측정한다.
 - 서버에 부하가 오는 지 확인, error 계속 발생하는 지?
-    - cpu, ram 메트릭트 지표들이 계속 노출
-        
-          → prometheus가 수집. → 시각화 대시보드를 구성시켜준다.
-        
-    - 프로젝트 어필 할 때 플러스 점수가 될 수 있다.
+  - cpu, ram 메트릭트 지표들이 계속 노출
+    → prometheus가 수집. → 시각화 대시보드를 구성시켜준다.
+  - 프로젝트 어필 할 때 플러스 점수가 될 수 있다.
 - log를 남길 수 있다. 3개의 로그를 수집한다.
-    - 로그를 수집하여 시각화를 해서 프로젝트에 보여준다면?
-    
+  - 로그를 수집하여 시각화를 해서 프로젝트에 보여준다면?
     → 굉장히 플러스임!
-    
 
 ![이미지](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0e8aac95-eda7-431b-a302-51bfd421a7a3/Untitled.png)
 
 - SLACK에 에러 알람을 연동 시킬 수 있다.
-    - 한번 해보는 것 나쁘지 않을 듯.
-    - 실제 기업에서는 이렇게 함.
+  - 한번 해보는 것 나쁘지 않을 듯.
+  - 실제 기업에서는 이렇게 함.
 - Swagger 라이브러리
-    - 개발한 문서들을 손으로 안쳐도
-    - app을 구동시켜서 docs로 만들어 준다.
-    - 서비스 초기에 세팅을 하는 것을 추천한다.
+  - 개발한 문서들을 손으로 안쳐도
+  - app을 구동시켜서 docs로 만들어 준다.
+  - 서비스 초기에 세팅을 하는 것을 추천한다.
 - github의 branch 활용.
-    - merge 합치기. 코드 리뷰를 진행한다.
-    - pull request
-    - 초반에 코드 컨벤션(집회)을 맞추기
-        - api 는 동사가 아닌 명사로만 정하기. 등등..
+  - merge 합치기. 코드 리뷰를 진행한다.
+  - pull request
+  - 초반에 코드 컨벤션(집회)을 맞추기
+    - api 는 동사가 아닌 명사로만 정하기. 등등..
 
 ## 의미 있는 프로젝트란?
 
 - 성장에 실질적인 도움이 되는 프로젝트를 어떻게 만들어 가야 하는가?
 - 클론 코딩을 기피하자.
-    1. 항상 생각하며 코딩하자.
-    2. 반복하자.
-    3. 문서화하면서 듣자.
-    4. 처음부터 만들어보자.
-    5. 나만의 색을 입히자.
-    6. 사이드 프로젝트를 하자.
-    
+  1. 항상 생각하며 코딩하자.
+  2. 반복하자.
+  3. 문서화하면서 듣자.
+  4. 처음부터 만들어보자.
+  5. 나만의 색을 입히자.
+  6. 사이드 프로젝트를 하자.
 
 ## 1차 프로젝트 경험, 왜 이렇게 했는지, cs 경험은 없었다.
 
@@ -142,15 +133,15 @@ tags: [silicon_1week, what_silicon]     # TAG names should always be lowercase
 
 - 기존에 있던 프로젝트들을
 - 도입 할때 신중하게 고민을 많이 하는 편,
-    - 배울 가치가 있는지?
-    - 적용했을 때 실제로 얻는 효과가 유의미하고 효율성이 있는지
-        - 시간을 잘 사용을 해야 회사의 기대치를 충족 시킬 수 있다.
-        - 평소에는 일상적인 운영 업무가 아주 많다.
-        - 러닝 커브를 단련할 시간이 많지는 않지만
+  - 배울 가치가 있는지?
+  - 적용했을 때 실제로 얻는 효과가 유의미하고 효율성이 있는지
+    - 시간을 잘 사용을 해야 회사의 기대치를 충족 시킬 수 있다.
+    - 평소에는 일상적인 운영 업무가 아주 많다.
+    - 러닝 커브를 단련할 시간이 많지는 않지만
 - 기존에 했던 프로젝트 , 기능 피쳐들로 새로운 프로젝트를 만들어 개발해보기.
 - `기존의 프로젝트에 새로운 것을 적용 시켜보자`
 - 새로운 기술스택을 대할때는?
-    - 어떤 것 때문에 필요한 것인지 꼭 염두하자!
+  - 어떤 것 때문에 필요한 것인지 꼭 염두하자!
 
 ## 공식문서를 꼭 보는 것이 좋다.
 
@@ -165,10 +156,10 @@ tags: [silicon_1week, what_silicon]     # TAG names should always be lowercase
 
 - 심지어 개인 깃허브 관리도 못합니다.
 - 자기가 습득한 지식을 남들에게 보여주기 위한 용도 x
-    - 한번쯤 되씹어보는 용도, 기록의 용도이다.
-    - 자기가 했던 그날의 것들을 기록하는 용도로 쓰자!
-    - 실제로 본인이 공부하는 것의 history를 남기는 것이다.
-    - 나중에는 바빠서 못씀.
+  - 한번쯤 되씹어보는 용도, 기록의 용도이다.
+  - 자기가 했던 그날의 것들을 기록하는 용도로 쓰자!
+  - 실제로 본인이 공부하는 것의 history를 남기는 것이다.
+  - 나중에는 바빠서 못씀.
 
 ## 어떻게 로직이 동작하는 지 좋아해서 BE 씀.
 
@@ -188,19 +179,17 @@ tags: [silicon_1week, what_silicon]     # TAG names should always be lowercase
 # 개인 공부장.
 
 - `ranking_list = Ranking.objects.order_by('-elapsed_time')[:100]`
-    - elapsed_time 기준 내림차순 정렬
-    - 100까지 출력
+  - elapsed_time 기준 내림차순 정렬
+  - 100까지 출력
 - `ranking_data = serializers.serialize("json",ranking_list, fields=('name','elapsed_time'))`
-    - json 형태로 직렬화 출력.
-    - ranking_list를 직렬화 하는 것임.
-    - 각 모델의 name 및 elapsed_time속성만 직렬화.
-    
+  - json 형태로 직렬화 출력.
+  - ranking_list를 직렬화 하는 것임.
+  - 각 모델의 name 및 elapsed_time속성만 직렬화.
     ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0a577799-dae1-4553-91a7-94926f6f5d51/Untitled.png)
-    
 - `ranking_data = json.loads(ranking_data)`
-    - JSON 문자열을 Python의 객체로 변환하기 위해서 loads() 함수 사용.
+  - JSON 문자열을 Python의 객체로 변환하기 위해서 loads() 함수 사용.
 - `ranking_data = [{**item['fields'],**{"pk" : item['pk']}} for item in ranking_data]`
-    - filed
+  - filed
 - 데이터값 상속 저장?
 
 ```
