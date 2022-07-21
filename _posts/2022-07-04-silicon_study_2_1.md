@@ -2,7 +2,7 @@
 title: 실리콘 벨리 두번째 주 월요일
 date: 2022-07-04 10:00:00 +0900
 categories: [2022 미국 실리콘밸리 SW교육프로그램]
-tags: [silicon_1week, what_silicon]     # TAG names should always be lowercase
+tags: [silicon_2week, what_silicon] # TAG names should always be lowercase
 ---
 
 # silicon_2week_Monday
@@ -26,11 +26,11 @@ urlpatterns = [
 
 - 현재 시간 자동 저장.
 
-ex1) `created_at **=** models**.**DateTimeField(auto_now_add**=**True)` 
+ex1) `created_at **=** models**.**DateTimeField(auto_now_add**=**True)`
 
 - 해당 레코드 생성시 현재 시간 자동 저장.
 
-ex2) `updated_at **=** models**.**DateTimeField(auto_now**=**True)` 
+ex2) `updated_at **=** models**.**DateTimeField(auto_now**=**True)`
 
 - 해당 레코드 갱신시 현재 시간 자동 저장.
 
@@ -39,7 +39,7 @@ ex2) `updated_at **=** models**.**DateTimeField(auto_now**=**True)`
 - 추가 context 추가
 
 ```
-		def get_context_data(self, **kwargs):				
+		def get_context_data(self, **kwargs):
 				# 기본 구현을 호출해 context를 가져온다.
         context = super(PublisherDetail, self).get_context_data(**kwargs)
         # 모든 책을 쿼리한 집합을 context 객체에 추가한다.
@@ -105,8 +105,7 @@ urlpatterns = [
 ## Pycharm - `requirement.txt` 가 있을때!
 
 - **pip install -r requirement.txt**
-    - 요구 모듈들을 한번에 다운할 수 있다..
-    
+  - 요구 모듈들을 한번에 다운할 수 있다..
 
 ## Pycharm - [model.py](http://model.py) - makemigrations
 
